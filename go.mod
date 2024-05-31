@@ -1,10 +1,5 @@
-module github.com/dwisiswant0/go-stare
+module github.com/dwisiswant0/slackcat
 
-go 1.15
+go 1.13
 
-require (
-	github.com/chromedp/cdproto v0.0.0-20210104223854-2cc87dae3ee3
-	github.com/chromedp/chromedp v0.6.0
-	github.com/logrusorgru/aurora v0.0.0-20200102142835-e9ef32dff381
-	github.com/projectdiscovery/gologger v1.0.1
-)
+require github.com/acarl005/stripansi v0.0.0-20180116102854-5a71ef0e047d
